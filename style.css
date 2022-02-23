@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #5C7DEB;
+}
+
+#board {
+  border: 1px black solid;
+  width: 502px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#board > div {
+  height: 50px;
+  width: 50px;
+  flex: 0 0 auto;
+  border: 1px black solid;
+  background-color: #E4FFD6;
+}
+
+button{
+  background: #48D4C7;
+  border-radius: 8px;
+  width: 100px;
+  border: none;
+  transition: 10ms;
+}
+
+button:hover{
+  background: #70BDB6;
+}
