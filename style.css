@@ -28,6 +28,7 @@ button{
   width: 100px;
   border: none;
   transition: 10ms;
+  margin-bottom: 20px;
 }
 
 button:hover{
